@@ -63,7 +63,7 @@ const ContactForm = () => {
           placeholder="Name"
           value={formData.name}
           onChange={handleChange}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#60060F]"
         />
 
         <input
@@ -74,7 +74,7 @@ const ContactForm = () => {
           placeholder="Email"
           value={formData.email}
           onChange={handleChange}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#60060F]"
         />
 
         <input
@@ -86,7 +86,7 @@ const ContactForm = () => {
           value={formData.phone}
           onChange={handleChange}
           pattern="\d{10}"
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#60060F]"
         />
 
         <input
@@ -97,7 +97,7 @@ const ContactForm = () => {
           required
           value={formData.subject}
           onChange={handleChange}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#60060F]"
         />
 
         <textarea
@@ -108,7 +108,7 @@ const ContactForm = () => {
           required
           value={formData.message}
           onChange={handleChange}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#60060F]"
         />
 
         <button
