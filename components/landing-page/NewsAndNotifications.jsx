@@ -38,7 +38,7 @@ const circulars = [
     link: "https://igcsm.com/",
   },
   {
-    text: "IGCSM RPL New Target - 500 - in Apperal & Home Furnishing",
+    text: "Tripura University RPL New Target - 500 - in Apperal & Home Furnishing",
     link: "https://igcsm.com/",
   },
 ];

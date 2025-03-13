@@ -24,7 +24,7 @@ const settings = {
 const Testimonials = () => {
   return (
     <div className="mx-auto container py-10">
-      <AnimatedHeading text="Testinomials" variant="fadeDown" className="text-4xl font-bold text-white" />
+      <AnimatedHeading text="Testimonials" variant="fadeDown" className="text-4xl font-bold text-white" />
 
       <Slider {...settings} className="mt-8">
         {testimonialData?.map((item, i) => (

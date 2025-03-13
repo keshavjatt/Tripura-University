@@ -38,26 +38,46 @@ function PrevArrow(props) {
   );
 }
 
-// Import slick-carousel CSS (very important!)
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 export default function Home() {
   // Carousel image data
   const heroImages = [
     {
-      url: "/images/banners/tripura1.png",
+      url: "/images/banners/tripura-banner-01.jpg",
       heading: "Our Initiative towards Skill India",
     },
     {
-      url: "/images/banners/tripura2.png",
+      url: "/images/banners/tripura-banner-02.jpg",
       heading: "Empowering Youth Through Education",
     },
     {
-      url: "/images/banners/tripura3.png",
+      url: "/images/banners/tripura-banner-03.jpg",
       heading: "Building a Skilled Future for India",
     },
-  ];
+    {
+      url: "/images/banners/tripura-banner-04.jpg",
+      heading: "Transforming Lives with Skill Development",
+    },
+    {
+      url: "/images/banners/tripura-banner-05.jpg",
+      heading: "Creating Opportunities for Youth Empowerment",
+    },
+    {
+      url: "/images/banners/tripura-banner-06.jpg",
+      heading: "Enhancing Employability Through Training",
+    },
+    {
+      url: "/images/banners/tripura-banner-07.jpg",
+      heading: "Driving Growth Through Skill Excellence",
+    },
+    {
+      url: "/images/banners/tripura-banner-08.jpg",
+      heading: "Education and Skills for a Better Tomorrow",
+    },
+    {
+      url: "/images/banners/tripura-banner-09.jpg",
+      heading: "Shaping the Workforce of the Future",
+    },
+  ];  
 
   // Carousel settings
   const carouselSettings = {
