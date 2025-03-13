@@ -75,7 +75,7 @@ export const privacyPolicyData = [
     },
     {
         "title": "Contact Details",
-        "content": "<div class=\"regBlk mt-3\"><h4 class=\"smlTtl mb-0\">Grievance Officer</h4><div class=\"card-body\"><div style=\"text-align:justify\">INDIRA GANDHI COMPUTER SAKSHARTA MISSION(IGCSM), <br>IGCSM, 36B/1, Gali Number 1, near Kalkaji Depot, Govindpuri, New Delhi, Delhi 110019<br> Phone: <a href=\"tel:+91-11-45640727\">+91-11-45640727</a>, <a href=\"tel:+91-11-26812165\">+91-11-26812165</a> <br> Email: <a href=\"mailto:director@igcsm.com\">director@igcsm.com</a><br> Time: Mon - Sat (11:00 AM - 05:00 PM)</div></div></div></div>"
+        "content": "<div class=\"regBlk mt-3\"><h4 class=\"smlTtl mb-0\">Grievance Officer</h4><div class=\"card-body\"><div style=\"text-align:justify\">INDIRA GANDHI COMPUTER SAKSHARTA MISSION(IGCSM), <br>Campus-Kamalghat, Mohanpur, Agartala -799210, Tripura (W)<br> Phone: <a href=\"tel:+91-11-45640727\">+91-11-45640727</a>, <a href=\"tel:+91-11-26812165\">+91-11-26812165</a> <br> Email: <a href=\"mailto:director@igcsm.com\">director@igcsm.com</a><br> Time: Mon - Sat (11:00 AM - 05:00 PM)</div></div></div></div>"
     },
     {
         "title": "14. Queries ",

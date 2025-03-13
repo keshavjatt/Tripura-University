@@ -45,7 +45,7 @@ const OurSpecialitiesPage = () => {
           Our Specialities
         </h4>
         <div className="mx-auto">
-          <h1 className="text-2xl font-bold text-gray-800 py-2">
+          <h1 className="text-2xl font-bold text-[#60060F] py-2">
             Empowering Rural Communities Through Skill Development
           </h1>
           <div className="flex flex-col md:flex-row gap-5">
@@ -85,7 +85,7 @@ const OurSpecialitiesPage = () => {
         </div>
 
         <div className="cat py-10">
-          <h2 className="text-2xl font-bold text-gray-800">
+          <h2 className="text-2xl font-bold text-[#60060F]">
             Discover Our Approach to Skill Development
           </h2>{" "}
           <p className="text-gray-600 mt-2 ">

@@ -25,7 +25,7 @@ const GalleryPage = () => {
               onClick={() => setCurrentTab("Awards")}
               className={`cursor-pointer pb-2 px-4 ${
                 currentTab === "Awards"
-                  ? "border-b-2 border-orange-500 font-semibold"
+                  ? "border-b-2 border-[#60060F] font-semibold"
                   : ""
               }`}
             >
@@ -35,7 +35,7 @@ const GalleryPage = () => {
               onClick={() => setCurrentTab("Gallery")}
               className={`cursor-pointer pb-2 px-4 ${
                 currentTab === "Gallery"
-                  ? "border-b-2 border-orange-500 font-semibold"
+                  ? "border-b-2 border-[#60060F] font-semibold"
                   : ""
               }`}
             >
@@ -45,7 +45,7 @@ const GalleryPage = () => {
               onClick={() => setCurrentTab("Videos")}
               className={`cursor-pointer pb-2 px-4 ${
                 currentTab === "Videos"
-                  ? "border-b-2 border-orange-500 font-semibold"
+                  ? "border-b-2 border-[#60060F] font-semibold"
                   : ""
               }`}
             >

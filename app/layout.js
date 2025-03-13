@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
 
-        <div className="mb-4 bg-gray-100 py-5 px-6">
+        <div className="mb-4 py-5 px-6 text-[#60060F]">
           <OurPartnersLogoSlider title={"Government Partners"} images={govPartnersImages} />
         </div>
 

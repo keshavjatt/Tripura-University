@@ -23,11 +23,11 @@ const IndustryPartnersPage = () => {
 
       <div className="container mx-auto py-10 px-4 flex flex-col text-justify ">
         <motion.div
-          className="text-4xl text-green-600 font-bold "
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          whileHover={{ scale: 1.05 }}
+          className="text-4xl text-[#60060F] font-bold "
+          // initial={{ opacity: 0, x: 50 }}
+          // animate={{ opacity: 1, x: 0 }}
+          // transition={{ duration: 0.6, delay: 0.2 }}
+          // whileHover={{ scale: 1.05 }}
         >
           Industry Partners
         </motion.div>
@@ -80,7 +80,7 @@ const IndustryPartnersPage = () => {
         </div>
 
         {/* Logo Slider */}
-        <div className="px-6 bg-gray-100 py-3">
+        <div className="px-6 bg-gray-100 py-3 text-[#60060F]">
           <OurPartnersLogoSlider
             title="Industry Partners"
             images={industryPartnersImages}

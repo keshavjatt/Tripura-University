@@ -80,13 +80,13 @@ const OurProjectsPage = () => {
         >
           <table className="w-full border-collapse border border-gray-300 shadow-md">
             <thead>
-              <tr className="bg-green-100 text-gray-700 text-center border border-gray-400">
-                <th className="p-1 text-sm border border-gray-400">District</th>
-                <th className="p-1 text-sm border border-gray-400">Course</th>
-                <th className="p-1 text-sm border border-gray-400">Scheme</th>
-                <th className="p-1 text-sm border border-gray-400">Batches</th>
-                <th className="p-1 text-sm border border-gray-400">Enrolled</th>
-                <th className="p-1 text-sm border border-gray-400">
+              <tr className="bg-[#60060F] text-gray-700 text-center border border-gray-400">
+                <th className="p-1 text-sm border border-gray-400 text-white">District</th>
+                <th className="p-1 text-sm border border-gray-400 text-white">Course</th>
+                <th className="p-1 text-sm border border-gray-400 text-white">Scheme</th>
+                <th className="p-1 text-sm border border-gray-400 text-white">Batches</th>
+                <th className="p-1 text-sm border border-gray-400 text-white">Enrolled</th>
+                <th className="p-1 text-sm border border-gray-400 text-white">
                   Placement
                 </th>
               </tr>
@@ -114,20 +114,20 @@ const OurProjectsPage = () => {
                   </td>
                 </tr>
               ))}
-              <tr className="font-bold bg-green-50 text-gray-900 text-left">
+              <tr className="font-bold bg-[#60060F] text-gray-900 text-left">
                 <td
-                  className="p-2 text-sm text-center border border-gray-400"
+                  className="p-2 text-sm text-center border border-gray-400 text-white"
                   colSpan={3}
                 >
                   Total
                 </td>
-                <td className="p-2 text-sm border border-gray-400">
+                <td className="p-2 text-sm border border-gray-400 text-white">
                   {totals.batches}
                 </td>
-                <td className="p-2 text-sm border border-gray-400">
+                <td className="p-2 text-sm border border-gray-400 text-white">
                   {totals.enrolled}
                 </td>
-                <td className="p-2 text-sm border border-gray-400">
+                <td className="p-2 text-sm border border-gray-400 text-white">
                   {totals.placement}
                 </td>
               </tr>

@@ -11,7 +11,7 @@ const animationVariants = {
 const AnimatedHeading = ({ text, variant = "fadeUp", className = "" }) => {
   return (
     <motion.h2
-      className={`text-3xl font-medium text-white mb-4 ${className}`}
+      className={`text-3xl font-medium mb-4 ${className}`}
       initial="hidden"
       whileInView="visible"
       variants={animationVariants[variant]}

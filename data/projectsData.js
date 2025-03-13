@@ -4,18 +4,18 @@ export const projectsData = {
             financialYear: "2023-24",
             trainingPartners: [
                 {
-                    tpName: "Tripura Global Technical University Fare Pvt. Ltd.",
-                    district: "Agra",
+                    tpName: "Tripura Global Technical University",
+                    district: "Test",
                     sector: {
-                        name: "Apparel",
-                        course: "Sampling Tailor(AMH/Q0701)"
+                        name: "Test",
+                        course: "Test"
                     },
-                    scheme: "SSDF",
-                    batches: 4,
-                    enrolled: 108,
-                    trained: 104,
-                    underTraining: 0,
-                    placement: 76
+                    scheme: "Test",
+                    batches: 1,
+                    enrolled: 1,
+                    trained: 1,
+                    underTraining: 1,
+                    placement: 1
                 },
             ]
         },

@@ -47,11 +47,16 @@ const NewsAndNotifications = ({ isCol }) => {
   return (
     <div className="container mx-auto ">
       <div className="py-5">
-        <AnimatedHeading text="News Updates" variant="fadeUp" />
-        <h4 className="text-gray-600 text-xl font-bold ">
+        <AnimatedHeading
+          text="News Updates"
+          variant="fadeUp"
+          className="text-[#60060F]"
+        />
+        <h4 className="text-xl font-bold text-[#60060F]">
           Latest News & Notice Board
         </h4>
       </div>
+
 
       {/* Conditionally apply flex or grid layout */}
       <div

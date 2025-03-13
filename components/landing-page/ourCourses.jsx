@@ -8,7 +8,7 @@ const CoursesList = () => {
   return (
     <div className="container mx-auto ">
       <div className=" mx-auto">
-        <AnimatedHeading text=" Our Courses" variant="fadeUp" />
+        <AnimatedHeading text="Our Courses" variant="fadeUp" className="text-white" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 ">
           {ourCoursesData?.map((course, index) => (
             <CourseCard key={index} course={course} />

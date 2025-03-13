@@ -51,7 +51,7 @@ const OurTeamPage = () => {
           {ourTeamData?.map((member, index) => (
             <motion.div
               key={index}
-              className="bg-green-50 rounded-2xl shadow-lg overflow-hidden text-center flex flex-col"
+              className="bg-[#60060F] rounded-2xl shadow-lg overflow-hidden text-center flex flex-col"
               variants={fadeInUp}
               whileHover={{ scale: 1.05 }} // Subtle hover effect
             >
@@ -66,8 +66,8 @@ const OurTeamPage = () => {
               </div>
 
               <div className="py-4 flex-grow flex flex-col justify-center">
-                <h3 className="text-md font-semibold">{member.name}</h3>
-                <p className="text-gray-500 text-sm">{member.designation}</p>
+                <h3 className="text-md text-white font-semibold">{member.name}</h3>
+                <p className="text-white text-sm">{member.designation}</p>
               </div>
             </motion.div>
           ))}

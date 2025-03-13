@@ -35,7 +35,7 @@ const AwardsAndApprovalsPage = () => {
 
       <div className="container mx-auto py-8 px-5">
         <div className="certificates">
-          <AnimatedHeading text="Approvals " variant="fadeDown" />
+          <AnimatedHeading text="Approvals " variant="fadeDown" className="text-[#60060F]" />
           <motion.div
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-5 pb-10"
             initial="hidden"

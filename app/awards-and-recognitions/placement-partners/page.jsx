@@ -169,7 +169,7 @@ const PlacementTieUpsPage = () => {
         </div>
 
         <div className="container mx-auto py-8 ">
-          <h2 className="text-2xl font-bold text-green-600 mb-6">
+          <h2 className="text-2xl font-bold text-[#60060F] mb-6">
             From Training to Employment: Your Success Journey
           </h2>
 
@@ -193,7 +193,7 @@ const PlacementTieUpsPage = () => {
         </div>
       </div>
 
-      <div className="mb-10 bg-gray-100 py-5 px-6">
+      <div className="mb-10 bg-gray-100 py-5 px-6 text-[#60060F]">
         <OurPartnersLogoSlider
           title={"Placement Partners"}
           images={placementPartnersImages}

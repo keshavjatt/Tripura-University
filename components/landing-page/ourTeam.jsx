@@ -13,7 +13,7 @@ import AnimatedHeading from "../common/Heading";
 const OurTeam = () => {
   return (
     <div className="container mx-auto">
-      <AnimatedHeading text="Our Team" variant="fadeUp" className="!text-black" />
+      <AnimatedHeading text="Our Team" variant="fadeUp" className="text-[#60060F]" />
       <div className=" mx-auto pt-3 ">
         <Swiper
           modules={[Navigation, Autoplay]}

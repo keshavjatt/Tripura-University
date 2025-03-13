@@ -49,7 +49,7 @@ const products = [
     section: "Address",
     links: [
       {
-        name: "IGCSM, 36B/1, Gali Number 1, near Kalkaji Depot, Govindpuri, New Delhi, Delhi 110019",
+        name: "Campus-Kamalghat, Mohanpur, Agartala -799210, Tripura (W)",
       },
     ],
   },

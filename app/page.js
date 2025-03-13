@@ -157,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* ----------------- industry logo slider --------------- */}
-      <section className="px-4 md:px-8" style={{ backgroundColor: '#60060F' }}>
+      <section className="px-4 md:px-8" style={{ backgroundColor: '#60060F', color: 'white' }}>
         <OurPartnersLogoSlider
           title={"Industry Partners"}
           images={industryPartnersImages}
@@ -179,7 +179,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-25 z-10"></div>
           </div>
           <div className="lg:w-1/2 w-full lg:pl-12">
-            <AnimatedHeading text="About Us" variant="fadeUp" />
+            <AnimatedHeading text="About Us" variant="fadeUp" className="text-[#60060F]" />
             <p className="leading-relaxed text-lg mb-6">
               We are a passionate team committed to bringing innovative
               solutions and services. Our goal is to create an impactful user
@@ -193,7 +193,7 @@ export default function Home() {
             </p>
             <motion.a
               href="/about-us"
-              className="text-green-700 inline-flex items-center mt-4 hover:text-green-500"
+              className="text-black inline-flex items-center mt-4 hover:text-[#60060F]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -240,7 +240,7 @@ export default function Home() {
 
       {/* Contact Us */}
       <section className="py-10 px-4 md:px-8" style={{ backgroundColor: '#60060F' }}>
-        <AnimatedHeading text="Contact Us" variant="fadeDown" className="container mx-auto" />
+        <AnimatedHeading text="Contact Us" variant="fadeDown" className="container mx-auto text-white" />
         <div className="container mx-auto flex flex-col md:flex-row gap-4">
           <div className="w-full md:w-1/2 my-auto">
             <motion.img

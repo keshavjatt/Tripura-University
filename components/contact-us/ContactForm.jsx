@@ -51,7 +51,7 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6 bg-gray-50 shadow-lg rounded-lg">
-      <h2 className="text-center text-2xl pb-4 text-black font-bold">
+      <h2 className="text-center text-2xl pb-4 text-[#60060F] font-bold">
         Feel free to reach us !
       </h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">

@@ -27,7 +27,7 @@ const FaqPage = () => {
     {
       question: "How can I contact Tripura Global Technical University?",
       answer:
-        "You can contact us via email. Our office is located at IGCSM, 36B/1, Gali Number 1, near Kalkaji Depot, Govindpuri, New Delhi, Delhi 110019",
+        "You can contact us via email. Our office is located at Campus-Kamalghat, Mohanpur, Agartala -799210, Tripura (W)",
     },
   ];
 

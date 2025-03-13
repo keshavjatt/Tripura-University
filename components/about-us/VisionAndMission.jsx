@@ -6,9 +6,9 @@ import vision from "@/public/images/vision.png";
 const VisionAndMission = () => {
   return (
     <>
-      <section className="px-4 bg-green-50">
+      <section className="px-4 bg-orange-200">
         <div className="container mx-auto">
-          <h2 className="text-3xl text-green-600 font-bold py-5">
+          <h2 className="text-3xl text-[#60060F] font-bold py-5">
             Our Mission
           </h2>
           <div className="mission flex flex-col md:flex-row">
@@ -40,7 +40,7 @@ const VisionAndMission = () => {
       </section>
 
       <section className="container mx-auto px-4" >
-        <h2 className="text-3xl text-green-600 font-bold py-5 ">
+        <h2 className="text-3xl text-[#60060F] font-bold py-5 ">
           Our Vision
         </h2>
 
